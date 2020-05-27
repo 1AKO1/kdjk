@@ -1,0 +1,130 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/healthdata/healthdata",
+		    "style" : {}
+		},{
+			"path": "pages/index/index",
+			"style": {}
+		}
+        ,{
+        	"path" : "pages/medical/medical",
+        	"style": {}
+        },
+		{
+		    "path" : "pages/doctorDetail/doctorDetail",
+		    "style" : {
+				"navigationBarTitleText": "医生详情"
+			}
+		}
+        ,{
+            "path" : "pages/user/user",
+            "style" : {}
+        },{
+			"path" : "pages/detail/detail",
+			"style" : {}
+		},{
+			"path":"pages/loginRegister/loginRegister",
+			"style":{}
+		},{
+			"path":"pages/person/person",
+			"style":{}
+		},{
+            "path" : "pages/messagelist/messagelist",
+            "style" : {}
+        },{
+            "path" : "pages/messagelist/messagelist",
+            "style" : {
+				"navigationBarTitleText": "消息列表"
+			}
+        },
+		{
+		    "path" : "pages/HM-chat/HM-chat",
+		    "style" : {
+				"navigationBarTitleText":"看到我就知道你没设置title",
+		    	"navigationBarBackgroundColor":"#f2f2f2",
+		    	"backgroundColorTop":"#e5e5e5",
+		    	"backgroundColorBottom":"#e5e5e5",
+		    	"app-plus":{
+		    		"softinputNavBar":"none",
+		    		"bounce":"none"
+		    	}
+		    }
+		},
+		{
+		    "path" : "pages/HM-chat/HM-details/HM-details",
+		    "style" : {
+				"navigationBarBackgroundColor":"#cf3c35",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"红包",
+				"backgroundColorTop":"#cf3c35",
+				"backgroundColorBottom":"#fff"
+			}
+		},
+		{
+		    "path" : "pages/HM-chat/HM-hand/HM-hand",
+		    "style" : {
+		    	"navigationBarBackgroundColor":"#cf3c35",
+		    	"navigationBarTextStyle":"white",
+		    	"navigationBarTitleText":"发红包",
+		    	"backgroundColorTop":"#cf3c35",
+		    	"backgroundColorBottom":"#fff",
+				"app-plus":{
+					"softinputNavBar":"none",
+					"bounce":"none"
+				}
+		    }
+		}
+        ,{
+            "path" : "pages/doctorlist/doctorlist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tongueDiagnosis/tongueDiagnosis",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tongueResult/tongueResult",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personInfo/personInfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personInfoShow/personInfoShow",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "口袋健康",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	"color": "#000000",
+	"selectedColor": "#40A9FF",
+	"list": [{
+		"pagePath":  "pages/healthdata/healthdata",
+		"iconPath": "static/icons/chart.png",
+		"selectedIconPath": "static/icons/chartSelected.png",
+		"text": "健康"
+		},{
+		"pagePath":  "pages/index/index",
+		"iconPath": "static/icons/knowledge.png",
+		"selectedIconPath": "static/icons/knowledgeSelected.png",
+		"text": "知识"
+		},{
+		"pagePath": "pages/doctorlist/doctorlist",
+		"iconPath": "static/icons/medical.png",
+		"selectedIconPath": "static/icons/medicalSelected.png",
+		"text": "问诊"
+		},{
+		"pagePath": "pages/person/person",
+		"iconPath": "static/icons/person.png",
+		"selectedIconPath": "static/icons/personSelected.png",
+		"text": "我的"
+		}]
+	}
+}

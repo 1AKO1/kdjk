@@ -1,0 +1,1 @@
+<view class="content"><view class="camera"><view data-event-opts="{{[['tap',[['tap']]]]}}" class="s-camera" bindtap="__e"></view><view class="tip"><text>点击拍摄你的舌头开始诊断</text></view></view><view class="tips"><text>注意:请在光线充足的环境下拍摄，拍摄范围为人中到下吧，请尽量保持舌头位于屏幕中央，拍摄前避免食用给舌头染色的食物，避免喝水后、洗澡后、运动后马上给舌头拍照，避免过度用力和紧绷，图片越清晰，问诊结果越精确。</text></view></view>

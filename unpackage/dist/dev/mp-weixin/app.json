@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chart/chart",
+    "pages/medical/medical",
+    "pages/person/person"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-blue.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/chart/chart",
+        "iconPath": "static/icons/chart.png",
+        "selectedIconPath": "static/icons/chart-blue.png",
+        "text": "图表"
+      },
+      {
+        "pagePath": "pages/medical/medical",
+        "iconPath": "static/icons/medical.png",
+        "selectedIconPath": "static/icons/medical-blue.png",
+        "text": "药物"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/icons/person.png",
+        "selectedIconPath": "static/icons/person-blue.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

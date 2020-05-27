@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "wuc-tab": "/components/wuc-tab/wuc-tab",
+    "login": "/components/login",
+    "register": "/components/register"
+  }
+}

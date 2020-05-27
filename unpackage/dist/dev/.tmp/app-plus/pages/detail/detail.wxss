@@ -1,0 +1,101 @@
+@font-face {font-family: "eosfont";
+	font-family: 'eosfont';  /* project id 1428160 */
+    src: url('//at.alicdn.com/t/font_1428160_02lrn0ypak6y.eot');
+    src: url('//at.alicdn.com/t/font_1428160_02lrn0ypak6y.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1428160_02lrn0ypak6y.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1428160_02lrn0ypak6y.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1428160_02lrn0ypak6y.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1428160_02lrn0ypak6y.svg#eosfont') format('svg');
+}
+.eosfont {
+  font-family: "eosfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.eosbaohudun-:before {
+  content: "\E600";
+}
+.title{
+	width: 100%;
+	text-align: center;
+	font-size: 43rpx;
+	font-weight: 400;
+	padding: 15rpx;
+}
+.tip{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	/* margin-right: 200rpx */
+	margin-right: 20rpx;
+	/* width: 100%; */
+}
+.tip_before{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack:end;
+	-webkit-justify-content:flex-end;
+	    -ms-flex-pack:end;
+	        justify-content:flex-end;
+	font-size: 30rpx;
+	color: gray;
+	margin-bottom: 5rpx;
+}
+.tip_text{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	/* background-color: #007AFF; */
+	-webkit-box-pack:end;
+	-webkit-justify-content:flex-end;
+	    -ms-flex-pack:end;
+	        justify-content:flex-end;
+	font-size: 30rpx;
+	color: gray;
+}
+.img_view{
+	text-align: center;
+}
+.img{
+	width: 90%;
+	margin: 0 auto;
+}
+.text{
+	font-size: 32rpx;
+	padding: 8rpx;
+	margin: 8rpx;
+	text-indent: 2em;
+	line-height: 55rpx;
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+}
+.img_1{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* .esofont{
+	width: 30%;
+} */
+

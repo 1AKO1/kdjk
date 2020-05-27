@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"tip { font-size: 18px; text-align: center; margin-bottom: 10px; }\n.",[1],"forms { width: 280px; margin: 10px auto; }\n.",[1],"forms wx-button { margin-top: 10px; }\n.",[1],"click { background: #007AFF; }\n",],undefined,{path:"./pages/personInfo/personInfo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/personInfo/personInfo.wxml') } }));

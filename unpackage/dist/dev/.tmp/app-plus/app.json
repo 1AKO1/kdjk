@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/healthdata/healthdata",
+    "pages/index/index",
+    "pages/medical/medical",
+    "pages/doctorDetail/doctorDetail",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/loginRegister/loginRegister",
+    "pages/person/person",
+    "pages/messagelist/messagelist",
+    "pages/messagelist/messagelist",
+    "pages/HM-chat/HM-chat",
+    "pages/HM-chat/HM-details/HM-details",
+    "pages/HM-chat/HM-hand/HM-hand",
+    "pages/doctorlist/doctorlist",
+    "pages/tongueDiagnosis/tongueDiagnosis",
+    "pages/tongueResult/tongueResult",
+    "pages/personInfo/personInfo",
+    "pages/personInfoShow/personInfoShow"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "口袋健康",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#40A9FF",
+    "list": [
+      {
+        "pagePath": "pages/healthdata/healthdata",
+        "iconPath": "static/icons/chart.png",
+        "selectedIconPath": "static/icons/chartSelected.png",
+        "text": "健康"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/knowledge.png",
+        "selectedIconPath": "static/icons/knowledgeSelected.png",
+        "text": "知识"
+      },
+      {
+        "pagePath": "pages/doctorlist/doctorlist",
+        "iconPath": "static/icons/medical.png",
+        "selectedIconPath": "static/icons/medicalSelected.png",
+        "text": "问诊"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/icons/person.png",
+        "selectedIconPath": "static/icons/personSelected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "口袋健康",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {
+    "q-s-input": "/components/QS-inputs-split/elements/QS-input/index"
+  }
+}

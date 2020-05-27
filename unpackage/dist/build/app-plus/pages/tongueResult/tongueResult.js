@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"body { width: 100%; padding: 20px; }\n.",[1],"image { margin: 5vh auto; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 225px; height: 150px; }\n.",[1],"image wx-image { width: 225px; height: 150px; }\n.",[1],"result wx-text { font-weight: bold; }\n",],undefined,{path:"./pages/tongueResult/tongueResult.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tongueResult/tongueResult.wxml') } }));

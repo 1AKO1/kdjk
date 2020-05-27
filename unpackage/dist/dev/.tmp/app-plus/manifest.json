@@ -1,0 +1,175 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__7FFDB83",
+  "name": "口袋健康",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "OAuth": {},
+    "Speech": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#F8F8F8"
+    },
+    "usingComponents": true,
+    "distribute": {
+      "splashscreen": {
+        "android": {
+          "hdpi": "static/imgs/1.png",
+          "xhdpi": "static/imgs/1.png",
+          "xxhdpi": "static/imgs/1.png"
+        }
+      },
+      "icons": {
+        "android": {
+          "hdpi": "static/imgs/logo.png",
+          "xhdpi": "static/imgs/logo.png",
+          "xxhdpi": "static/imgs/logo.png",
+          "xxxhdpi": "static/imgs/logo.png"
+        },
+        "ios": {
+          "appstore": "static/imgs/logo.png"
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "speech": {
+          "ifly": {}
+        },
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "nativePlugins": {
+      "DC-StepCounter": {
+        "__plugin_info__": {
+          "name": "（Android）计步器",
+          "description": "计步器 第二天重置步数。",
+          "platforms": "Android",
+          "url": "https://ext.dcloud.net.cn/plugin?id=119",
+          "android_package_name": "com.wtone0.kdjk",
+          "ios_bundle_id": "",
+          "isCloud": true,
+          "bought": 1,
+          "pid": "119",
+          "parameters": {}
+        }
+      }
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.3.7",
+      "control": "v8",
+      "nvueCompiler": "weex",
+      "renderer": "auto"
+    },
+    "tabBar": {
+      "color": "#000000",
+      "selectedColor": "#40A9FF",
+      "list": [
+        {
+          "pagePath": "pages/healthdata/healthdata",
+          "iconPath": "static/icons/chart.png",
+          "selectedIconPath": "static/icons/chartSelected.png",
+          "text": "健康"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "static/icons/knowledge.png",
+          "selectedIconPath": "static/icons/knowledgeSelected.png",
+          "text": "知识"
+        },
+        {
+          "pagePath": "pages/doctorlist/doctorlist",
+          "iconPath": "static/icons/medical.png",
+          "selectedIconPath": "static/icons/medicalSelected.png",
+          "text": "问诊"
+        },
+        {
+          "pagePath": "pages/person/person",
+          "iconPath": "static/icons/person.png",
+          "selectedIconPath": "static/icons/personSelected.png",
+          "text": "我的"
+        }
+      ],
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "height": "50px",
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
+    }
+  }
+}

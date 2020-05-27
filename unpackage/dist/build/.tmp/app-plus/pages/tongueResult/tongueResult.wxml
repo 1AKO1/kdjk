@@ -1,0 +1,1 @@
+<view class="body"><view class="image"><image src="{{img}}" mode="scaleToFill"></image></view><view class="result"><text>AI诊断：</text><view>{{judge}}</view><view class="_br"></view><text>AI建议：</text><view>{{advice}}</view></view></view>
